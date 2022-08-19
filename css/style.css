@@ -1,0 +1,239 @@
+/* fonts links */
+@font-face {
+    font-family: poppins-bold;
+    src: url(../fonts/poppins/poppins-bold.otf);
+}
+@font-face {
+    font-family: poppins-medium;
+    src: url(../fonts/poppins/poppins-medium.otf);
+}
+@font-face {
+    font-family: poppins-regular;
+    src: url(../fonts/poppins/poppins-regular.otf);
+}
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/roboto/roboto-regular.ttf);
+}
+@font-face {
+    font-family: rubik-bold;
+    src: url(../fonts/rubik/rubik-bold.ttf);
+}
+@font-face {
+    font-family: rubik-regular;
+    src: url(../fonts/rubik/rubik-regular.ttf);
+}
+/* common start */
+body{
+    padding-top: 109px;
+    font-family: poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+/* header start */
+header{
+    padding: 10px 0;
+    background-color: #ddf3dd;
+}
+.cnav{}
+.logo{
+    width: 200px;
+}
+.menu{}
+.menu ul li a{
+    padding: 10px 20px !important;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000 !important;
+    line-height: 24px;
+    
+}
+.menu ul li a:hover{
+    color: #FD511A !important;
+}
+.btn_common{
+    font-family: 'Roboto',sans-serif;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #21B573;
+    border: none;
+    border-radius: 33px;
+}
+.btnh{
+    margin-left: 10px;
+    width: 105px;
+    height: 45px;
+}
+.btn_common:hover{
+    color: #FFFFFF;
+    background-color: #FD511A;
+}
+/* header end */
+/* banner start */
+.banner{
+    padding: 60px 0;
+    background-color: #ddf3dd;
+}
+.b_text{
+    padding-right: 145px;
+}
+.b_text1{
+    color: #FD511A;
+    line-height: 24px;
+}
+.b_h1{
+    margin: 10px 0 20px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.b_h1 span{
+    color: #21B573;
+}
+
+.b_text2{
+    line-height: 36px;
+}
+.b_a{
+    margin-top: 15px;
+    padding: 14px 35px;
+    width: 155px;
+    height: 45px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.b_img{}
+.b_img img{}
+/* banner end */
+/* feature start */
+.feature{
+    padding: 40px 0 100px;
+}
+.s_feature{
+    padding: 55px 0 50px;
+    background-color: #ddf3dd;
+    text-align: center;
+    border-radius: 10px;
+    transition: .3s;
+}
+.s_feature:hover{
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.f_img{}
+.f_img img{}
+.s_feature h2{
+    margin: 20px 0 0;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.s_feature p{
+    line-height: 24px;
+}
+/* feature end */
+/* courses start */
+.course{
+    padding: 0 0 100px;
+}
+.c_title{}
+.c_title h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    
+}
+.s_course{
+    margin-top: 50px;
+    padding: 25px 20px 30px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    transition: .5s;
+}
+.s_course:hover{
+    transform: scale(1.1);
+}
+.c_img{}
+.c_img img{
+    width: 100%;
+    border-radius: 11px;
+}
+.s_course h2{
+    margin: 18px 0 5px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.s_course p{
+    line-height: 24px;
+}
+.btn_course{
+    margin: 18px 0 35px;
+    padding: 8px 25px;
+    width: 135px;
+    height: 35px;
+}
+.c_footer{}
+.left{}
+.right{}
+
+.left ul li img,.right ul li img{}
+.left ul li span, .left ul li span{
+    font-weight: 500;
+    line-height: 24px;
+}
+.mr_c{
+    margin-right: 6px !important;
+}
+/* courses end */
+/* testimonial start */
+.test{
+    padding: 0 0 100px;
+}
+.t_h1{
+    padding-bottom: 50px;
+}
+.t_content{}
+.t_img{
+    margin-left: 220px;
+    width: 120px;
+}
+.t_img img{}
+.t_text{
+    line-height: 30px;
+}
+/* testimonial end */
+/* footer start */
+footer{
+    padding: 55px 0 30px;
+    background-color: #010101;
+}
+.f_1{}
+.f_1 p{
+    color: #FFFFFF;
+    line-height: 30px;
+}
+.f_2{
+    margin-left: 118px;
+}
+.f_text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.f_2 p a{
+    color: white;
+    line-height: 30px;
+    text-decoration: none;
+}
+.f_m{
+    margin-top: 76px;
+}
+.f_1 p a{
+    color: white;
+    text-decoration: none;
+}
+
+/* footer end */
